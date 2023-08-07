@@ -1,0 +1,515 @@
+.second-row{
+    background-color: $primary;
+    height:450px;
+    margin-bottom:12rem;
+  }
+
+  div.row.row-{
+    background-color: $primary;
+    display:flex;
+  }
+
+  h1{
+    color:$secondary;
+    margin-left:20%;
+    font-size: 1.8rem;
+    width:100%;
+    margin-bottom:2rem;
+    margin-top:-5%;
+  }
+  .lorem-ipsem{
+    color:$secondary;
+    margin-left:20.5%;
+    width:415px;
+    margin-bottom:5%;
+  }
+
+
+  .button1 {
+    border:.5px solid $secondary;
+    color: $plain;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: $primary;
+    margin-right:11%;
+    text-transform: uppercase;
+    font-size:.8em;
+    margin-top:1.1%;
+    font-weight:bolder;
+    margin-left:6.5rem;
+  }
+  
+  .button1:hover{
+    background-color:$secondary;
+    color: $primary;
+    border-color:$primary;
+    font-weight:bolder;
+  }
+  
+
+
+  @media (min-width:270px) and (max-width:280px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      margin-left:1rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+  
+     button.button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:.7rem;
+     }
+  }
+
+  @media (min-width:281px) and (max-width:320px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      margin-left:1rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+  
+     button.button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:.7rem;
+     }
+  }
+  @media (min-width:321px) and (max-width:375px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    margin-left:1rem;
+   }
+   .lorem-ipsem{
+    padding:0;
+    max-width: 100%;
+    margin:0;
+    margin-top:2rem;
+    margin-left:1rem;
+   }
+
+   button.button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:.7rem;
+    width:100%;
+   }
+  }
+
+  @media (min-width:376px) and (max-width:393px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    margin-left:1rem;
+   }
+   .lorem-ipsem{
+    padding:0;
+    max-width: 100%;
+    margin:0;
+    margin-top:2rem;
+    margin-left:1rem;
+   }
+
+   button.button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:.7rem;
+    width:100%;
+   }
+  }
+
+  @media (min-width:401px) and (max-width:414px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+  
+     button.button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:.7rem;
+      width:100%;
+     }
+  }
+  @media (min-width:539px) and (max-width:540px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      margin-left:1rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+  
+     button.button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:.7rem;
+      width:100%;
+     }
+  }
+  @media (min-width:541px) and (max-width:568px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    margin-left:1rem;
+   }
+   .lorem-ipsem{
+    padding:0;
+    max-width: 100%;
+    margin:0;
+    margin-top:2rem;
+    margin-left:1rem;
+   }
+
+   button.button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:.7rem;
+    width:100%;
+   }
+  }
+  @media (min-width:569px) and (max-width:600px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      margin-left:1rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:1rem;
+     }
+  
+     button.button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:.7rem;
+      width:100%;
+     }
+  }
+  @media (min-width:639px) and (max-width:667px){
+    div.second-row.container-fluid{
+      padding:0;
+      margin-bottom:20rem;
+    }
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      margin-left:1.7rem;
+     }
+     .lorem-ipsem{
+      padding:0;
+      max-width: 100%;
+      margin:0;
+      margin-top:2rem;
+      margin-left:2rem;
+     }
+  
+     button#button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:2rem;
+      width:90%;
+     }
+  }
+  @media (min-width:719px) and (max-width:736px){
+    div.second-row.container-fluid{
+      padding:2rem;
+      margin-bottom:20rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    margin-left:1.7rem;
+   }
+   .lorem-ipsem{
+    padding:0;
+    max-width: 100%;
+    margin:0;
+    margin-top:2rem;
+    margin-left:2rem;
+   }
+
+   button#button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:2rem;
+    width:86%;
+   }
+  }
+  @media (min-width:750px) and (max-width:768px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    text-align: center;
+    margin-left:2%;
+   }
+   .lorem-ipsem{
+    padding:0;
+    width: 450px;
+    margin:0;
+    margin-top:2rem;
+    margin-left:2rem;
+   }
+
+   button#button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:2rem;
+    width:97%;
+   }
+  }
+  @media (min-width:769px) and (max-width:780px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    }
+
+   h1{
+    margin:0;
+    width:100%;
+    padding:0;
+    margin-top:4rem;
+    text-align: center;
+    margin-left:2%;
+   }
+   .lorem-ipsem{
+    padding:0;
+    width: 420px !important;
+    margin:0;
+    margin-top:2rem;
+    margin-left:2rem;
+   }
+
+   button#button1.btn.btn-primary{
+    margin:0;
+    margin-top:4rem;
+    margin-left:2rem;
+    width:94%;
+   }
+  }
+  @media (min-width:781px) and (max-width:823px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    } 
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      text-align: center;
+      margin-left:2%;
+     }
+     .lorem-ipsem{
+      padding:0;
+      width: 500px;
+      margin:0;
+      margin-top:2rem;
+      margin-left:2rem;
+     }
+  
+     button#button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:2rem;
+      width:97%;
+     }
+  }
+  @media (min-width:844px) and (max-width:852px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    } 
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      text-align: center;
+      margin-left:2%;
+     }
+     .lorem-ipsem{
+      padding:0;
+      width: 510px;
+      margin:0;
+      margin-top:2rem;
+      margin-left:2rem;
+     }
+  
+     button#button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:2rem;
+      width:97%;
+     }
+  }
+  @media (min-width:892px) and (max-width:896px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    } 
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      text-align: center;
+      margin-left:0%;
+     }
+     .lorem-ipsem{
+      padding:0;
+      width: 565px;
+      margin:0;
+      margin-top:2rem;
+      margin-left:2rem;
+     }
+  
+     button#button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:2rem;
+      width:92%;
+     }
+  }
+  @media (min-width:926px) and (max-width:932px){
+    div.second-row.container-fluid{
+      padding:4rem;
+      margin-bottom:20rem;
+      margin-top:-5rem;
+    } 
+    h1{
+      margin:0;
+      width:100%;
+      padding:0;
+      margin-top:4rem;
+      text-align: center;
+      margin-left:-4%;
+     }
+     .lorem-ipsem{
+      padding:0;
+      width: 565px;
+      margin:0;
+      margin-top:2rem;
+      margin-left:2rem;
+     }
+  
+     button#button1.btn.btn-primary{
+      margin:0;
+      margin-top:4rem;
+      margin-left:2rem;
+      width:86%;
+     }
+  }
+  @media (min-width:935px) and (max-width:1024px){
+    h1, .lorem-ipsem{
+      margin-left:2%;
+     }
+     button#button1.btn.btn-primary{
+       margin-top:2.5rem;
+       margin-left:.5rem;
+     }
+  }

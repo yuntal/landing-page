@@ -1,0 +1,586 @@
+
+.price-plan-body{
+  border-radius: 8px;
+}
+
+div.price-plan.card{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width:1090px;
+  margin-left:11.5%;
+  margin-top:-2%;
+  height:180px;
+}
+
+.pricing-plan{
+  font-size:2.2em;
+  color:$primary;
+  text-align: center;
+  font-weight:bold;
+}
+
+div.row.row-4{
+  background-color: $primary;
+  display:flex;
+  margin-top:-10%;
+}
+div.price-cards.card{
+  width:300px;
+  margin-left:5.5%;
+  margin-top:15%;
+  margin-bottom: 15rem;
+  height:780px;
+  border:none;
+  background-color: $secondary;
+}
+div.price-cards.card:hover{
+  border:3px solid $tertiary;
+}
+ 
+
+
+.circle {
+  border: 16px solid $tertiary;
+  border-radius: 50%;
+  border-top: 16px solid $primary;
+  width: 120px;
+  height: 120px;
+  rotate: 45deg;
+  margin-left:30%;
+  margin-top:25%;
+}
+
+.circle2 {
+  border: 16px solid $tertiary;
+  border-radius: 50%;
+  border-top: 16px solid $primary;
+  border-right: 16px solid $primary;
+  border-left: 16px solid $primary;
+  width: 120px;
+  height: 120px;
+  rotate: 135deg;
+  margin-left:30%;
+  margin-top:25%;
+}
+
+.circle3 {
+  border: 16px solid $tertiary;
+  border-radius: 50%;
+  border-top: 16px solid $primary;
+  border-right: 16px solid $primary;
+  border-left: 16px solid $primary;
+  border-bottom: 16px solid $primary;
+  width: 120px;
+  height: 120px;
+  rotate: 135deg;
+  margin-left:30%;
+  margin-top:25%;
+}
+
+
+div.price-body{
+  background-color: $secondary;
+  border-radius: 8px;
+}
+
+
+div.price-title.h5{
+  color:$tertiary;
+  text-align: center;
+}
+
+.price-text{
+  margin-top:2rem;
+}
+
+.product-price{
+  font-size:1.4em;
+  color:$primary;
+  text-align: center;
+}
+
+ul{
+  list-style-type:none;
+  margin-top:4rem;
+  text-align: center;
+  margin-left:-15%;
+  margin-bottom:5rem;
+}
+
+li{
+  margin-top:.5rem;
+  font-weight:bolder;
+}
+
+
+.button2 {
+  border:.5px solid $secondary;
+  color:$plain;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: $primary;
+  margin-right:11%;
+  text-transform: uppercase;
+  font-size:.8em;
+  margin-top:1.1%;
+  font-weight:bolder;
+  margin-left:4rem;
+}
+
+.button2:hover{
+  background-color:$secondary;
+  color: $primary;
+  border-color:$primary;
+  font-weight:bolder;
+}
+
+
+ 
+ @media (min-width:270px) and (max-width:280px){
+    
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+   }
+ 
+   .pricing-plan{
+    margin-top:5rem;
+    font-size:.9em;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:6%;
+    margin-bottom:-8%;
+   }
+
+   .circle, .circle2, .circle3 {
+    width: 100px;
+    height: 100px;
+    margin-left:25%;
+  }
+
+  .button2{
+    margin-left:10%;
+   }
+ 
+  }
+
+  @media (min-width:281px) and (max-width:320px){
+    
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+   }
+   .pricing-plan{
+    margin-top:5rem;
+    font-size:.9em;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:6%;
+    margin-bottom:-8%;
+   }
+   .button2{
+    margin-left:11%;
+   }
+   .circle, .circle2, .circle3 {
+    width: 100px;
+    height: 100px;
+    margin-left:24%;
+  }
+  }
+
+
+  @media (min-width:321px) and (max-width:375px){
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+     }
+     .pricing-plan{
+      margin-top:3rem;
+    }
+    div.price-cards.card{
+      max-width:100%;
+      margin-left:4%;
+      margin-bottom:-8%;
+     }
+     .circle, .circle2, .circle3 {
+      width: 100px;
+      height: 100px;
+      margin-left:32%;
+    }
+
+   .button2{
+    margin-left:22%;
+   }
+  }
+
+  @media (min-width:376px) and (max-width:393px){
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+     }
+     .pricing-plan{
+      margin-top:3rem;
+    }
+    div.price-cards.card{
+      max-width:100%;
+      margin-left:4%;
+      margin-bottom:-8%;
+     }
+     .button2{
+      margin-left:22%;
+     }
+     .circle, .circle2, .circle3 {
+      width: 100px;
+      height: 100px;
+      margin-left:32%;
+    }
+  }
+
+  @media (min-width:401px) and (max-width:414px){
+    
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+   }
+   .pricing-plan{
+    margin-top:4rem;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+   .button2{
+    margin-left:22%;
+   }
+   .circle, .circle2, .circle3 {
+    width: 100px;
+    height: 100px;
+    margin-left:30%;
+  }
+  }
+  @media (min-width:539px) and (max-width:540px){
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+     }
+     .pricing-plan{
+      margin-top:2rem;
+    }
+    div.price-cards.card{
+      max-width:100%;
+      margin-left:10%;
+      margin-bottom:-12%;
+     }
+   
+     .button2{
+      margin-left:25%;
+     }
+  
+  }
+  @media (min-width:541px) and (max-width:568px){
+    
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:14%;
+    margin-bottom:-12%;
+   }
+   .button2{
+    margin-left:25%;
+   }
+
+  }
+  @media (min-width:569px) and (max-width:600px){
+    
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:14%;
+    margin-bottom:-12%;
+   }
+   .button2{
+    margin-left:25%;
+   }
+
+  }
+  @media (min-width:639px) and (max-width:667px){
+    .sixth-row{
+      margin:0;
+      padding:5rem;
+    }
+
+
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+    margin-top:-5rem;
+    height:100px;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+   
+ 
+ 
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+
+   .button2{
+    margin-left:24%;
+   }
+
+  }
+  @media (min-width:719px) and (max-width:736px){
+    .sixth-row{
+      margin:0;
+      padding:8rem;
+    }
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+      margin-top:-8rem;
+      height:150px;
+     }
+     .pricing-plan{
+      margin-top:2rem;
+    }
+    .button2{
+      margin-left:22%;
+     }
+  
+
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+
+  }
+  @media (min-width:750px) and (max-width:768px){
+    .sixth-row{
+      margin:0;
+      padding:8.5rem;
+    }
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+      margin-top:-9rem;
+      height:150px;
+     }
+     .pricing-plan{
+      margin-top:2rem;
+    }
+     
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+
+   .button2{
+    margin-left:25%;
+   }
+
+  }
+  @media (min-width:769px) and (max-width:780px){
+    
+  .sixth-row{
+    margin:0;
+    padding:8.5rem;
+  }
+
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+    margin-top:-9rem;
+    height:150px;
+   }
+
+   .button2{
+    margin-left:25%;
+   }
+
+   .pricing-plan{
+    margin-top:2rem;
+  }
+   
+
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+  }
+  @media (min-width:781px) and (max-width:823px){
+    
+  .sixth-row{
+    margin:0;
+    padding:10.5rem;
+  }
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+    margin-top:-11rem;
+    height:150px;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:4%;
+    margin-bottom:-8%;
+   }
+
+
+
+   .button2{
+    margin-left:23%;
+   }
+  }
+  @media (min-width:844px) and (max-width:852px){
+    .sixth-row{
+      margin:0;
+      padding:10.5rem;
+    }
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+      margin-top:-11rem;
+      height:150px;
+     }
+     .pricing-plan{
+      margin-top:2rem;
+    }
+    div.price-cards.card{
+      max-width:100%;
+      margin-left:4%;
+      margin-bottom:-8%;
+     }
+     .button2{
+      margin-left:24%;
+     }
+  
+  }
+  @media (min-width:892px) and (max-width:896px){
+    
+  .sixth-row{
+    margin:0;
+    padding:10.5rem;
+  }
+
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+    margin-top:-11rem;
+    height:150px;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+
+
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:12%;
+    margin-bottom:-8%;
+   }
+
+   .button2{
+    margin-left:24%;
+   }
+
+  }
+  @media (min-width:926px) and (max-width:932px){
+    
+  .sixth-row{
+    margin:0;
+    padding:11rem;
+  }
+  div.price-plan.card{
+    max-width:100%;
+    margin:0;
+    margin-bottom:2rem;
+    margin-top:-11rem;
+    height:150px;
+   }
+   .pricing-plan{
+    margin-top:2rem;
+  }
+
+  div.price-cards.card{
+    max-width:100%;
+    margin-left:12%;
+    margin-bottom:-8%;
+   }
+   .button2{
+    margin-left:24%;
+   }
+
+  }
+  @media (min-width:935px) and (max-width:1024px){
+    .sixth-row{
+      margin:0;
+      padding:12rem;
+      height:1200px;
+    }
+    div.price-plan.card{
+      max-width:100%;
+      margin:0;
+      margin-bottom:2rem;
+      margin-top:-12rem;
+      height:150px;
+     }
+
+     div.price-cards.card{
+      max-width:100%;
+      margin-bottom:-8%;
+     }
+     
+  
+  }
+  @media (min-width:1025px) and (max-width:1366px){
+    div.price-cards.card{
+      max-width:100%;
+      margin-left:4%;
+     }
+  
+  }

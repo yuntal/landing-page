@@ -1,0 +1,367 @@
+.fourth-row{
+    background-color: $play;
+    height:600px;
+    max-width:100%;
+    opacity:.7;
+  }
+
+  .play { 
+  background: $primary;
+  border-radius: 50% / 10%;
+  color: $plain;
+  font-size: 1em; /* change this to change size */
+  height: 3em;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 150ms ease-out;
+  width: 4em;
+  display: inline-block;
+  padding: 25px;
+  position: relative;
+  top: 7rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play:hover {
+  background: $tertiary;
+}
+
+.play::before { 
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.play::after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent rgba(255, 248, 232);
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
+}
+
+.play-button{
+    color:$primary;
+    margin-top:6%;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom:2rem;
+  }
+  
+  .play-button2{
+    width:35%;
+    margin-left:33.5%;
+    margin-top:5%;
+    color:$primary;
+  }
+  
+  .play-button1{
+    font-size:1.5em;
+    margin-top:5%;
+    text-align: center;
+    color:$primary;
+  }
+
+
+
+@media (min-width:270px) and (max-width:280px){
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:790px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+
+@media (min-width:281px) and (max-width:320px){
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:790px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:321px) and (max-width:375px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:660px;
+      }   
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+
+@media (min-width:376px) and (max-width:393px){
+ 
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:660px;
+      } 
+
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+}
+
+@media (min-width:401px) and (max-width:414px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:660px;
+      }
+
+
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+}
+@media (min-width:539px) and (max-width:540px){
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:600px;
+      }    
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:541px) and (max-width:568px){
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:600px;
+      }    
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:569px) and (max-width:600px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:70rem;
+        height:600px;
+      }    
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:639px) and (max-width:667px){
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:580px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:719px) and (max-width:736px){
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:580px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:750px) and (max-width:768px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:560px;
+      }
+
+
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+}
+@media (min-width:769px) and (max-width:780px){
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:560px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+    
+}
+@media (min-width:781px) and (max-width:823px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:570px;
+      }
+
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+}
+@media (min-width:844px) and (max-width:852px){
+   
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:570px;
+      }
+      .play-button2{
+        text-align: left;
+        margin:0;
+        padding:3rem;
+        width:100%;
+       }
+       .play-button{
+         margin-top:6rem;
+       }
+}
+@media (min-width:892px) and (max-width:896px){
+  
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:570px;
+      }
+
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+}
+@media (min-width:926px) and (max-width:932px){
+    .fourth-row{
+        padding:0;
+        margin-top:85rem;
+        height:570px;
+      }
+       
+  .play-button2{
+    text-align: left;
+    margin:0;
+    padding:3rem;
+    width:100%;
+   }
+   .play-button{
+     margin-top:6rem;
+   }
+    
+}
+@media (min-width:935px) and (max-width:1024px){
+  
+    .fourth-row{
+        margin-top:0;
+        height:630px;
+      }
+      .play-button{
+        margin-top:6rem;
+      }  
+}
