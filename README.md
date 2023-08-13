@@ -2,13 +2,14 @@ Supreme E-commerce Store
 
 Description:
 
-In this project, my purpose is to demonstrate a simple e-commerce website where customers can browse and interact with products. The website features a product list that can be added to the shopping bag. Customers can select multiple quantities of the same item. Upon checkout, a cart page displays the list of added products along with the subtotal. The page offers a "Keep Shopping" button to continue shopping and a "Checkout" button pre-filled with dummy data.
+In this particular project, i've designed a landing page for showcasing design skills only. All actions, call to buttons, navigation links, icons and so on - are pre-filled with dummy-data. 
+
 <br> </br>
 
 
 Built With:
 <br> </br>
-- React JS
+- React
 - React Bootstrap
   
 <br> </br>
@@ -34,13 +35,10 @@ npm run start
 
 <br> </br>
 
-What the project looks like when it's running
 
-<img width="1385" alt="e-commerce1" src="https://github.com/yuntal/supreme-store/assets/57660581/c18a78b0-0065-453a-b5a7-6e479be6897f">
-
-<img width="1238" alt="e-commerce2" src="https://github.com/yuntal/supreme-store/assets/57660581/5473d2c8-8b84-4e9c-a1cd-52320832a6ba">
-
-<img width="1152" alt="e-commerce3" src="https://github.com/yuntal/supreme-store/assets/57660581/7aa64eb2-8d2a-438c-b810-d3d0176b651f">
+Live demo
+<br> </br>
+https://yuntal.github.io/landing-page/#
 
 
 <br> </br>
