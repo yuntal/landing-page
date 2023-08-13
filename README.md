@@ -44,9 +44,6 @@ https://yuntal.github.io/landing-page/#
 <br> </br>
 
 
-<br> </br>
-
-
 Contact:
 
 Let's stay connected! You can find me on LinkedIn:
