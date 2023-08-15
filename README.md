@@ -1,4 +1,4 @@
-Supreme E-commerce Store
+Landing page
 
 <br> </br>
 
